@@ -26,7 +26,7 @@ namespace Gael.arcness
             Debug.Log("Hello World");
             if (m_xboX != null)
             {
-                m_xboX.gameObject.
+               //m_xboX.gameObject.
             }
         }
 
