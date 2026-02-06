@@ -4,7 +4,7 @@ namespace Florentin.ArcNES
 {
     public class HelloWorld : MonoBehaviour
     
-    [SerializeField] private XboxMono_XboxWithCode m_xbox;
+   // [SerializeField] private XboxMono_XboxWithCode m_xbox;
     {
         // Start is called once before the first execution of Update after the MonoBehaviour is created
         void Start()
