@@ -1,4 +1,6 @@
-# 2026_02_06_unity_arc_raiders_in_group
+# 2026\_02\_06\_unity\_arc\_raiders\_in\_group
+
 Hey hey, let's learn code by playing Arc Raiders in group with Git.
 
-- https://github.com/EloiStree/PlayTo_ArcRaiders
+* https://github.com/EloiStree/PlayTo\_ArcRaiders
+* https://be.linkedin.com/in/yacine-bounjoua-46845475
