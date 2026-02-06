@@ -1,25 +1,11 @@
 {
   "dependencies": {
     "be.elab.nescontrollerudp": {
-      "version": "https://github.com/EloiStree/2026_01_18_upm_nes_controller_udp.git",
+      "version": "https://github.com/EloiStree/2026_01_18_upm_nes_controller_udp.git#6c961e7dc3d202ae0ef25e3e9aac9aba9cb5998d",
       "depth": 0,
       "source": "git",
       "dependencies": {},
       "hash": "6c961e7dc3d202ae0ef25e3e9aac9aba9cb5998d"
-    },
-    "be.elab.shaderfiltercollection": {
-      "version": "https://github.com/EloiStree/2026_01_28_upm_texture_process_filter.git",
-      "depth": 0,
-      "source": "git",
-      "dependencies": {},
-      "hash": "f9445be219188f6c8b2112ff1f9577857da136c3"
-    },
-    "be.elab.texturetoolbox": {
-      "version": "https://github.com/EloiStree/2025_06_13_upm_toolbox_texture_2d.git",
-      "depth": 0,
-      "source": "git",
-      "dependencies": {},
-      "hash": "b433fc57b2421cb6faba53891e1f24a9dfc09fed"
     },
     "com.unity.ai.navigation": {
       "version": "2.0.9",

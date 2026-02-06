@@ -1,8 +1,6 @@
 {
   "dependencies": {
-    "be.elab.nescontrollerudp": "https://github.com/EloiStree/2026_01_18_upm_nes_controller_udp.git",
-    "be.elab.shaderfiltercollection": "https://github.com/EloiStree/2026_01_28_upm_texture_process_filter.git",
-    "be.elab.texturetoolbox": "https://github.com/EloiStree/2025_06_13_upm_toolbox_texture_2d.git",
+    "be.elab.nescontrollerudp": "https://github.com/EloiStree/2026_01_18_upm_nes_controller_udp.git#6c961e7dc3d202ae0ef25e3e9aac9aba9cb5998d",
     "com.unity.ai.navigation": "2.0.9",
     "com.unity.collab-proxy": "2.11.3",
     "com.unity.ide.rider": "3.0.38",
