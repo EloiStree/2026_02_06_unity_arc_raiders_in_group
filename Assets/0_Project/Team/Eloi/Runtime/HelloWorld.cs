@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace Eloi.ArcNES
+namespace Blen.ArcNES
 {
     
     public class HelloWorld : MonoBehaviour
