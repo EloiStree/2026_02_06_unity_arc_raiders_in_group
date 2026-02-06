@@ -2,4 +2,4 @@
 
 Hey hey, let's learn code by playing Arc Raiders in group with Git.
 
-* https://github.com/EloiStree/PlayTo\_ArcRaiders
+* https://github.com/EloiStree/PlayTo_ArcRaiders
