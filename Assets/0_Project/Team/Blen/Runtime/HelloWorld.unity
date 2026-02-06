@@ -186,85 +186,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1678064260}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &100627148
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 100627149}
-  - component: {fileID: 100627150}
-  m_Layer: 0
-  m_Name: Joystick left Down
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &100627149
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 100627148}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1678064260}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &100627150
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 100627148}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aaa1543a357928f4a9b5c26de87ed815, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: be.elab.nescontrollerudp.Runtime::Eloi.NesUtility.NesMono_InputButton
-  m_inputAction: {fileID: 5952103565504449804, guid: c7cddff3b2295774ebb42fa03bd8ee05, type: 3}
-  m_onChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_onDown:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 643043990}
-        m_TargetAssemblyTypeName: XboxMono_XboxWithCode, be.elab.nescontrollerudp.Runtime
-        m_MethodName: PressKeyLeftStick_InMilliseconds
-        m_Mode: 3
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 100
-          m_FloatArgument: 1
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  m_onUp:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 643043990}
-        m_TargetAssemblyTypeName: XboxMono_XboxWithCode, be.elab.nescontrollerudp.Runtime
-        m_MethodName: ReleaseKeyLeftStick_InMilliseconds
-        m_Mode: 3
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 100
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  m_isPressed: 0
 --- !u!1 &201820307
 GameObject:
   m_ObjectHideFlags: 0
@@ -330,7 +251,19 @@ MonoBehaviour:
         m_CallState: 2
   m_onUp:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 643043990}
+        m_TargetAssemblyTypeName: XboxMono_XboxWithCode, be.elab.nescontrollerudp.Runtime
+        m_MethodName: ReleaseKeyB
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_isPressed: 0
 --- !u!1 &441383161
 GameObject:
@@ -397,7 +330,19 @@ MonoBehaviour:
         m_CallState: 2
   m_onUp:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 643043990}
+        m_TargetAssemblyTypeName: XboxMono_XboxWithCode, be.elab.nescontrollerudp.Runtime
+        m_MethodName: ReleaseKeyY
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_isPressed: 0
 --- !u!1 &541603905
 GameObject:
@@ -464,7 +409,98 @@ MonoBehaviour:
         m_CallState: 2
   m_onUp:
     m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 643043990}
+        m_TargetAssemblyTypeName: XboxMono_XboxWithCode, be.elab.nescontrollerudp.Runtime
+        m_MethodName: ReleaseKeyX
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  m_isPressed: 0
+--- !u!1 &596453235
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 596453236}
+  - component: {fileID: 596453237}
+  m_Layer: 0
+  m_Name: Arrow  Down
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &596453236
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 596453235}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1678064260}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &596453237
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 596453235}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aaa1543a357928f4a9b5c26de87ed815, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: be.elab.nescontrollerudp.Runtime::Eloi.NesUtility.NesMono_InputButton
+  m_inputAction: {fileID: 3138848600905265739, guid: c7cddff3b2295774ebb42fa03bd8ee05, type: 3}
+  m_onChanged:
+    m_PersistentCalls:
       m_Calls: []
+  m_onDown:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 643043990}
+        m_TargetAssemblyTypeName: XboxMono_XboxWithCode, be.elab.nescontrollerudp.Runtime
+        m_MethodName: PressKeyArrowDown
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 100
+          m_FloatArgument: 1
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  m_onUp:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 643043990}
+        m_TargetAssemblyTypeName: XboxMono_XboxWithCode, be.elab.nescontrollerudp.Runtime
+        m_MethodName: ReleaseKeyArrowDown
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_isPressed: 0
 --- !u!1 &628001450
 GameObject:
@@ -544,6 +580,164 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a51a792c14ef199498e3b46dcd02932e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: be.elab.nescontrollerudp.Runtime::XboxMono_XboxWithCode
+--- !u!1 &739315788
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 739315789}
+  - component: {fileID: 739315790}
+  m_Layer: 0
+  m_Name: Arrow  Left
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &739315789
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 739315788}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1678064260}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &739315790
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 739315788}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aaa1543a357928f4a9b5c26de87ed815, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: be.elab.nescontrollerudp.Runtime::Eloi.NesUtility.NesMono_InputButton
+  m_inputAction: {fileID: -2408118329204360006, guid: c7cddff3b2295774ebb42fa03bd8ee05, type: 3}
+  m_onChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_onDown:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 643043990}
+        m_TargetAssemblyTypeName: XboxMono_XboxWithCode, be.elab.nescontrollerudp.Runtime
+        m_MethodName: PressKeyArrowLeft
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 100
+          m_FloatArgument: 1
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  m_onUp:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 643043990}
+        m_TargetAssemblyTypeName: XboxMono_XboxWithCode, be.elab.nescontrollerudp.Runtime
+        m_MethodName: ReleaseKeyArrowDownLeft
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  m_isPressed: 0
+--- !u!1 &869041242
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 869041243}
+  - component: {fileID: 869041244}
+  m_Layer: 0
+  m_Name: Arrow  Right
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &869041243
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 869041242}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1678064260}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &869041244
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 869041242}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aaa1543a357928f4a9b5c26de87ed815, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: be.elab.nescontrollerudp.Runtime::Eloi.NesUtility.NesMono_InputButton
+  m_inputAction: {fileID: -706042687500502549, guid: c7cddff3b2295774ebb42fa03bd8ee05, type: 3}
+  m_onChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_onDown:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 643043990}
+        m_TargetAssemblyTypeName: XboxMono_XboxWithCode, be.elab.nescontrollerudp.Runtime
+        m_MethodName: PressKeyArrowRight
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 100
+          m_FloatArgument: 1
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  m_onUp:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 643043990}
+        m_TargetAssemblyTypeName: XboxMono_XboxWithCode, be.elab.nescontrollerudp.Runtime
+        m_MethodName: ReleaseKeyArrowRight
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  m_isPressed: 0
 --- !u!1 &905923732
 GameObject:
   m_ObjectHideFlags: 0
@@ -664,8 +858,8 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 643043990}
         m_TargetAssemblyTypeName: XboxMono_XboxWithCode, be.elab.nescontrollerudp.Runtime
-        m_MethodName: PressKeyMenuLeft_InMilliseconds
-        m_Mode: 3
+        m_MethodName: PressKeyMenuLeft
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -676,7 +870,19 @@ MonoBehaviour:
         m_CallState: 2
   m_onUp:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 643043990}
+        m_TargetAssemblyTypeName: XboxMono_XboxWithCode, be.elab.nescontrollerudp.Runtime
+        m_MethodName: ReleaseKeyMenuLeft
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_isPressed: 0
 --- !u!1 &1114054799
 GameObject:
@@ -833,7 +1039,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 643043990}
         m_TargetAssemblyTypeName: XboxMono_XboxWithCode, be.elab.nescontrollerudp.Runtime
-        m_MethodName: PressKeyMenuRight_InMilliseconds
+        m_MethodName: StrokeKeyMenuRight_ForMilliseconds
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -902,6 +1108,85 @@ MonoBehaviour:
   m_onValueChangedY:
     m_PersistentCalls:
       m_Calls: []
+--- !u!1 &1316110799
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1316110800}
+  - component: {fileID: 1316110801}
+  m_Layer: 0
+  m_Name: Arrow  UP
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1316110800
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1316110799}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1678064260}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1316110801
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1316110799}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aaa1543a357928f4a9b5c26de87ed815, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: be.elab.nescontrollerudp.Runtime::Eloi.NesUtility.NesMono_InputButton
+  m_inputAction: {fileID: -3055549967204323688, guid: c7cddff3b2295774ebb42fa03bd8ee05, type: 3}
+  m_onChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_onDown:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 643043990}
+        m_TargetAssemblyTypeName: XboxMono_XboxWithCode, be.elab.nescontrollerudp.Runtime
+        m_MethodName: PressKeyArrowUp
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 100
+          m_FloatArgument: 1
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  m_onUp:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 643043990}
+        m_TargetAssemblyTypeName: XboxMono_XboxWithCode, be.elab.nescontrollerudp.Runtime
+        m_MethodName: ReleaseKeyArrowUp
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  m_isPressed: 0
 --- !u!1 &1512518612
 GameObject:
   m_ObjectHideFlags: 0
@@ -1544,7 +1829,19 @@ MonoBehaviour:
         m_CallState: 2
   m_onUp:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 643043990}
+        m_TargetAssemblyTypeName: XboxMono_XboxWithCode, be.elab.nescontrollerudp.Runtime
+        m_MethodName: ReleaseKeyA
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_isPressed: 0
 --- !u!1 &1664569637
 GameObject:
@@ -1710,10 +2007,13 @@ Transform:
   - {fileID: 541603906}
   - {fileID: 1652475252}
   - {fileID: 201820308}
-  - {fileID: 1826834146}
-  - {fileID: 100627149}
   - {fileID: 905923733}
   - {fileID: 1287244579}
+  - {fileID: 1786887061}
+  - {fileID: 1316110800}
+  - {fileID: 596453236}
+  - {fileID: 739315789}
+  - {fileID: 869041243}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1786887059
@@ -1755,12 +2055,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1786887059}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 9368.714, y: 0, z: 177242.36}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1678064260}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1824028917
 GameObject:
@@ -1854,85 +2154,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1826834145
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1826834146}
-  - component: {fileID: 1826834147}
-  m_Layer: 0
-  m_Name: Joystick left Up
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1826834146
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1826834145}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1678064260}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1826834147
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1826834145}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aaa1543a357928f4a9b5c26de87ed815, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: be.elab.nescontrollerudp.Runtime::Eloi.NesUtility.NesMono_InputButton
-  m_inputAction: {fileID: -8115783013512452256, guid: c7cddff3b2295774ebb42fa03bd8ee05, type: 3}
-  m_onChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_onDown:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 643043990}
-        m_TargetAssemblyTypeName: XboxMono_XboxWithCode, be.elab.nescontrollerudp.Runtime
-        m_MethodName: PressKeyLeftStick_InMilliseconds
-        m_Mode: 3
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 100
-          m_FloatArgument: 1
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  m_onUp:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 643043990}
-        m_TargetAssemblyTypeName: XboxMono_XboxWithCode, be.elab.nescontrollerudp.Runtime
-        m_MethodName: ReleaseKeyLeftStick_InMilliseconds
-        m_Mode: 3
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 100
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  m_isPressed: 0
 --- !u!1 &2053743400
 GameObject:
   m_ObjectHideFlags: 0
@@ -1996,4 +2217,3 @@ SceneRoots:
   - {fileID: 1114054803}
   - {fileID: 1512518615}
   - {fileID: 1678064260}
-  - {fileID: 1786887061}
