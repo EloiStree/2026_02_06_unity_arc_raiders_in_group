@@ -1,8 +1,10 @@
 {
-    "name": "be.arcnes.eloi",
-    "rootNamespace": "ArcNes.Eloi",
+    "name": "be.eloistree.arcnes",
+    "rootNamespace": "Eloi.ArcNES",
     "references": [
-        "be.elab.nescontrollerudp.Runtime"
+        "GUID:2bafac87e7f4b9b418d9448d219b01ab",
+        "GUID:75469ad4d38634e559750d17036d5f7c",
+        "GUID:173261c63f4585d4181de8e75ca5314a"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],
